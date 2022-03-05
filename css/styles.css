@@ -1,0 +1,198 @@
+#title {
+  background-color: #ff4c68;
+  position: relative;
+  z-index: 0;
+}
+
+#features {
+  background-color: #fff;
+  position:relative;
+
+}
+
+.top-h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "Ubuntu";
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+i:hover{
+  color: #ff4c68;
+
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.iphone-img {
+  transform: rotate(25deg);
+  width: 19%;
+  margin-top: -4rem;
+  position: absolute;
+  z-index: -1;
+
+
+}
+
+  /* Nav Bar */
+
+.navbar {
+  padding-bottom: 4.5rem;
+
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: "Ubuntu";
+  padding-top: 0;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Ubuntu";
+}
+
+  /* Features Section */
+
+.features-icon {
+  color: #ef8172;
+}
+
+
+.features-box {
+  text-align: center;
+  padding: 5%;
+}
+
+#features {
+  padding: 7% 14% 7% 14%;
+}
+
+ /* Testimonials Section */
+
+#testimonials {
+
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+
+}
+
+.carousel-item {
+    padding: 7% 14% 7% 14%;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 2rem;
+}
+
+  /* Press Section */
+
+  #press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 4rem;
+  }
+
+  .press-img {
+    width: 15%;
+    margin-right: 2rem;
+  }
+
+ /* Pricing-Sectiom */
+
+#pricing {
+  padding: 7% 14%;
+}
+
+.card {
+  text-align: center;
+
+}
+
+.pricing-header {
+  text-align: center;
+}
+
+.card {
+  margin-top: 2rem;
+}
+
+  /* cta-section */
+
+#cta {
+  padding: 7% 14%;
+  text-align: center;
+  background-color: #ff4c68;
+}
+
+.last-h3 {
+  font-family: Montserrat;
+  color: #fff;
+  font-size: 3.5rem;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+}
+
+.last-button {
+  margin-right: 1rem;
+}
+
+
+  @media (max-width: 998px){
+    .iphone-img {
+      position: static;
+      width: 60%;
+      transform: rotate(0);
+      padding-top: 3rem;
+
+    }
+
+  @media (max:width:690px){
+    .iphone-img {
+      margin-left: 0rem;
+    }
+  }
+
+
+    #title {
+      text-align: center;
+    }
+
+  }
+
+  /* footer-section */
+
+#footer {
+  text-align: center;
+  padding: 2% 14%;
+
+}
+
+.footer-icons {
+  margin: 2rem 1rem;
+}
